@@ -1,0 +1,347 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'HelveticaNeueCyr-Light';
+    font-weight: bold;
+}
+
+body {}
+
+.container {
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-image: url(../img/Mask\ Group.png);
+    background-position-x: center;
+}
+
+.intro {}
+
+.top {
+
+    display: flex;
+    justify-content: space-between;
+    padding: 95px 85px 0px 85px;
+}
+
+.left__text {
+    display: flex;
+}
+
+.text__top {
+    letter-spacing: 11px;
+    font-size: 34px;
+    line-height: 64px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    transition: 2.8s;
+    color: #fff;
+    animation: textt 6.9s infinite ease-in-out;
+}
+
+
+@keyframes textt {
+    from {
+        top: 0px;
+    }
+
+    50% {
+        padding-right: 200px;
+    }
+
+    to {
+        top: 0px;
+    }
+
+}
+
+.right__text {}
+
+.top__text__2 {
+    text-align: end;
+    color: #fff;
+    font-size: 13px;
+    letter-spacing: 3px;
+}
+
+.img__bot {
+    background-size: cover;
+    height: 376px;
+    background-image: url(../img/scale.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 10px;
+    background-position-x: center;
+}
+
+.container_2 {
+    background-image: url(../img/1625609106_23-kartinkin-com-p-tolpa-fon-krasivie-foni-24\ 1.png);
+    background-color: #000;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text__top_2 {
+    letter-spacing: 11px;
+    font-size: 34px;
+    line-height: 64px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: #fff;
+}
+
+.top_2 {
+
+    padding: 95px 85px 0px 85px;
+
+
+}
+
+.text__top__2 {
+    letter-spacing: 11px;
+    font-size: 34px;
+    line-height: 64px;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    transition: 2.8s;
+    color: #fff;
+    animation: textt 6.9s infinite ease-in-out;
+}
+
+
+
+.left__text_2 {
+    width: 100%;
+    justify-content: end;
+    display: flex;
+
+}
+
+.fon {
+    background: #00000070;
+}
+
+.img__bot_2 {
+    background-image: url(../img/scale.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    height: 376px;
+}
+@media screen and (max-width: 2560px){
+    @keyframes textt {
+        from {
+            top: 0px;
+        }
+    
+        50% {
+            padding-right: 395px;
+        }
+    
+        to {
+            top: 0px;
+        }
+    
+    }
+}
+@media screen and (max-width: 1920px){
+    @keyframes textt {
+        from {
+            top: 0px;
+        }
+    
+        50% {
+            padding-right: 295px;
+        }
+    
+        to {
+            top: 0px;
+        }
+    
+    }
+}
+@media screen and (max-width: 1600px){
+    @keyframes textt {
+        from {
+            top: 0px;
+        }
+    
+        50% {
+            padding-right: 200px;
+        }
+    
+        to {
+            top: 0px;
+        }
+    
+    }
+}
+@media screen and (max-width: 1440px){
+    @keyframes textt {
+        from {
+            top: 0px;
+        }
+    
+        50% {
+            padding-right: 180px;
+        }
+    
+        to {
+            top: 0px;
+        }
+    
+    }
+    
+}
+@media screen and (max-width: 1366px){
+    @keyframes textt {
+        from {
+            top: 0px;
+        }
+    
+        50% {
+            padding-right: 110px;
+        }
+    
+        to {
+            top: 0px;
+        }
+    
+    }
+}
+@media screen and (max-width: 1290px){
+    @keyframes textt {
+        from {
+            top: 0px;
+        }
+    
+        50% {
+            padding-right: 100px;
+        }
+    
+        to {
+            top: 0px;
+        }
+    
+    }
+    
+}
+@media screen and (max-width: 1100px) {
+    .text__top__2:hover {
+        padding-left: 130px;
+        transition: 2.2s;
+    }
+
+    .text__top:hover {
+        padding-right: 130px;
+        transition: 2.2s;
+    }
+    @keyframes textt {
+        from {
+            top: 0px;
+        }
+    
+        50% {
+            padding-right: 100px;
+        }
+    
+        to {
+            top: 0px;
+        }
+    
+    }
+
+    .text__top {
+        letter-spacing: 8px;
+        font-size: 25px;
+    }
+
+    .text__top__2 {
+        letter-spacing: 8px;
+        font-size: 25px;
+    }
+
+    .top {
+        padding: 95px 25px 0px 25px;
+    }
+
+    .top_2 {
+        padding: 95px 25px 0px 25px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .text__top {
+
+        line-height: 40px;
+    }
+
+    .text__top__2 {
+
+        line-height: 30px;
+    }
+
+    .text__top__2:hover {
+        padding-left: 50px;
+        transition: 2.2s;
+    }
+
+    .text__top:hover {
+        padding-right: 50px;
+        transition: 2.2s;
+    }
+
+    .top {
+        flex-flow: column;
+    }
+    .right__text{
+        display: none;
+    }
+    @keyframes textt {
+        from {
+            top: 0px;
+        }
+    
+        50% {
+            padding-right: 110px;
+        }
+    
+        to {
+            top: 0px;
+        }
+    
+    }
+}
+@media screen and (max-width: 590px){
+    @keyframes textt {
+        from {
+            top: 0px;
+        }
+    
+        50% {
+            padding-right: 40px;
+        }
+    
+        to {
+            top: 0px;
+        }
+    
+    }
+}
+@media screen and (max-width: 411px){
+    @keyframes textt {
+        from {
+            top: 0px;
+        }
+    
+        50% {
+            padding-right: 30px;
+        }
+    
+        to {
+            top: 0px;
+        }
+    
+    }
+}
